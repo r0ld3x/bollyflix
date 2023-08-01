@@ -1,9 +1,8 @@
-"use client";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-// import { ThemeProvider } from "@/components/context/theme-provider";
-import { ThemeProvider } from "next-themes";
+import { ThemeProvider } from "@/components/context/theme-provider";
+// import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/navbar/navbar";
 import MovieFilter from "@/components/mfilters";
 
@@ -25,7 +24,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" enableSystem={true}>
           <div className="">
             <Navbar />
-          </div> 
+          </div>
           {children}
         </ThemeProvider>
       </body>
