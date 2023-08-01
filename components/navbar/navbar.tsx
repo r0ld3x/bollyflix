@@ -38,7 +38,7 @@ const Navbar = () => {
               "text-xl sm:text-2xl text-purple-600 lg:text-3xl",
               marker.className
             )}
-          >Flex
+          >Flix
           </span>
         </Link>
       </div>
