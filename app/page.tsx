@@ -25,7 +25,7 @@ function Home() {
           Source Code{" "}
           <Link
             className="text-purple-500"
-            href="https://r0ld3x.github.io/r0ld3x"
+            href="https://github.com/r0ld3x/bollyflix"
           >
             Github
           </Link>
