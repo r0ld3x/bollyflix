@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect, useState } from "react";
 
 import { Input } from "@/components/ui/input";
@@ -24,7 +25,7 @@ const Search = () => {
     }
   }, [isEmptyQuery]);
 
-  const handleKeyPress = (e: { key: string; }) => {
+  const handleKeyPress = (e: { key: string }) => {
     if (e.key === "Enter") {
       handleSearch();
     }

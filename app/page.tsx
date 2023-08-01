@@ -11,7 +11,7 @@ function Home() {
       <div>
         <Movie mid={"day"} />
       </div>
-      <footer className="h-24 flex text-center justify-center align-middle ">
+      <footer className="h-24 flex text-center justify-center align-middle flex-col">
         <h1 className="self-center">
           Made By{" "}
           <Link
