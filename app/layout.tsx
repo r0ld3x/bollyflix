@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> d8d5a7fef6a3fe4ad5929b48173a691962bb3c60
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
