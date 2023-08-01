@@ -14,7 +14,7 @@ function MovieFilter(id: any) {
     <div>
       <div className="flex w-full justify-between text-center items-center px-4 py-2 bg-gray-700 text-white dark:text-white sm:px-8 sm:py-3 md:text-sm md:px-12 md:py-3 lg:px-16 lg:py-4 xl:px-20 xl:py-5 h-12">
         <Link
-          className={cn("text-xs lg:text-lg xl:text-xl sm:text-sm px-4 py-2 ", {
+          className={cn("text-xs lg:text-lg xl:text-xl sm:text-sm px-2 py-2 ", {
             "bg-slate-800 border-t-2": !id.id,
           })}
           href="/"
@@ -46,7 +46,7 @@ function MovieFilter(id: any) {
           Upcoming
         </Link>
         <Link
-          className={cn("text-xs lg:text-lg xl:text-xl sm:text-sm px-4 py-2 ", {
+          className={cn("text-xs lg:text-lg xl:text-xl sm:text-sm px-2 py-2 ", {
             "bg-slate-800": id.id === "now_playing", // Highlight when id is "now_playing"
           })}
           href="/now_playing"
